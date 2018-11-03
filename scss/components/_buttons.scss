@@ -1,23 +1,74 @@
+.grid__col--12,.grid__col--4{
+  border: none;
+  color: white;
+.btn--default{
+  background-color: #59DCFC;
+  width: 100%;
+  border: none;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 5px;
+  font-weight: bold;
+
+}
+
 .btn--success{
   background-color: #63CC82;
+  width: 100%;
+  border: none;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 5px;
+  font-weight: bold;
+
+
+
 }
 
 .btn--error{
   background-color: #E4757A;
+  width: 100%;
+  border: none;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 5px;
+  font-weight: bold;
+
+
+
 }
 
 .btn--warning{
   background-color: #FD7856;
+  width: 100%;
+  border: none;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 5px;
+  font-weight: bold;
+
+
+
 }
 
 .btn--info{
   background-color: #927BC1;
+  width: 100%;
+  border: none;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 5px;
+  font-weight: bold;
+
+
+}
 }
 
-
-
-.grid__row .grid__col--12 button{
-  margin-left: 50px;
+#button-area{
   margin-right: 50px;
-  width: 95%;
 }

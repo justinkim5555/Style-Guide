@@ -1,21 +1,24 @@
-img{
+.img--logo{
   display: block;
   margin: auto;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
+  position: relative;
+  left: 40px;
 }
-
-
-
-#images{
-  margin-left: 50px;
-  text-align: left;
-  font-weight: normal;
-}
-
 .img--frame{
-  border: 1px solid #959595;
-  padding: 15px;
-  width: 88%;
+  display: block;
+  margin: auto;
+  margin-bottom: 20px;
+  border: 1.5px solid lightgray;
+  padding: 25px;
+  position: relative;
+  left: 40px;
+}
 
+.img--avatar{
+  display: block;
+  margin: auto;
+  margin-bottom: 20px;
+  position: relative;
+  left: 40px;
 }

@@ -1,14 +1,14 @@
 .container{
-  margin: 40px 50px 40px 50px;
-  margin: auto;
-  width: 100%;
-  font-family: 'Rubik', sans-serif;
-  line-height: 1.8;
-  color: #959595;
-  border: 1px solid black;
+  margin-left: 1px;
+  margin-right: 1px;
+  color: #B1B1B1;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
+  Helvetica, Arial, "Lucida Grande", sans-serif;
 }
 .grid__row{
   margin-top: 50px;
+  margin-right: 50px;
+
 
     .grid__col--3{
       &.theme__colors{
@@ -19,9 +19,6 @@
     .grid__col--4{
       &.theme__colors{
         background-color: #7EE6FD;
-      }
-      form legend{
-        margin: 50px;
       }
     }
 
@@ -88,11 +85,12 @@
 
 
 .theme__colors{
+  text-align: left;
   height: 40px;
-  border-radius: 5px;
-  margin: 5px;
   margin-left: 50px;
-  margin-right: 50px;
-  padding-top: 10px;
-  padding-left: 15px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  color: gray;
+  padding-left: 20px;
+  padding-top: 20px;
 }
