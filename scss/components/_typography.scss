@@ -1,8 +1,23 @@
+// .container{}
+// .link{}
 .blockquote{
-  margin-left: 100px;
+  border-left:5px solid #58E1C1;
+  padding-left: 30px;
+  font-size: 20px;
+}
+.headline--primary{
+  margin-left: 20px;
+  color: #58E1C1;
+
+}
+.headline--secondary{
+  font-weight: normal;
+  margin-left: 5px;
 }
 
-a{
-  text-decoration: none;
-  color: skyblue;
+
+@media only screen and (min-width: 769px){
+  .blockquote{
+    max-width: 60%;
+  }
 }
