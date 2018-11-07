@@ -1,11 +1,12 @@
+
 .btn--default{
   color: white;
-  background-color: #51DDFC;
+  background-color: $default-color;
 }
 
 .btn--success{
   color: white;
-  background-color: #63CC82;
+  background-color: $success-color;
 }
 
 .btn--error{
