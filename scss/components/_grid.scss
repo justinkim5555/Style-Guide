@@ -12,7 +12,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border: 1px solid blue;
 }
 
 // .grid__col--2{}
@@ -65,15 +64,12 @@
 }
 .grid__col--8{
   width: 100%;
-  text-align: center;
-
 
   &.theme__colors{
   background-color: #FD9E85;
   }
 }
 .grid__col--9{
-  border: 1px solid purple;
   width: 100%;
 
 }
@@ -114,6 +110,7 @@
 
   .grid__col--12{
     flex-direction: row;
+    flex-wrap: wrap;
   }
 
   .grid__col--6{
@@ -134,5 +131,6 @@
   .grid__col--9{
     flex-direction: row;
   }
+
 
 }

@@ -4,6 +4,11 @@
   justify-content: center;
   width: 100%;
   padding-top: 20px;
+  button{
+    margin-top: 15px;
+    margin-left: -1px;
+    width: 101%;
+  }
 }
 .form__label--hidden{
   display: none;
@@ -14,6 +19,8 @@
   border: none;
   border-bottom: 5px solid #58E1C1;
 }
+
+
 
 @media only screen and (min-width: 769px){
   .form{

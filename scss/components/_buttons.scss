@@ -1,20 +1,25 @@
 .btn--default{
+  color: white;
   background-color: #51DDFC;
 }
 
 .btn--success{
+  color: white;
   background-color: #63CC82;
 }
 
 .btn--error{
+  color: white;
   background-color: #E4747A;
 }
 
 .btn--warning{
+  color: white;
   background-color: #FD7756;
 }
 
 .btn--info{
+  color: white;
   background-color: #927BC1;
   .theme__colors{
     width: 100%;
@@ -30,8 +35,21 @@
   padding-left: 50px;
   padding-right: 50px;
   border-radius: 5px;
+  border: none;
 
 }
 
-// @media only screen and (min-width: 769px){}
-// flex-direction: wrap;
+@media only screen and (min-width: 769px){
+
+  button{
+    width: 100%;
+  }
+
+  .theme__colors{
+    width: 15%;
+    text-align: center;
+    padding-left: 2%;
+    padding-right: 2%;
+    border: none;
+  }
+}
