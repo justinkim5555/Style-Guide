@@ -12,31 +12,24 @@
 
 .btn--success{
   @include buttonblock;
-
   background-color: $success-color;
 
 }
 
 .btn--error{
   @include buttonblock;
-
-
   background-color: $error-color;
 
 }
 
 .btn--warning{
   @include buttonblock;
-
-
   background-color: $warning-color;
 
 }
 
 .btn--info{
   @include buttonblock;
-
-
   background-color: $info-color;
 
 }
