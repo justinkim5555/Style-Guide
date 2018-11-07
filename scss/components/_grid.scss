@@ -34,7 +34,7 @@
   // text-align: center;
   // font-weight: bold;
   &.theme__colors{
-  background-color: #DEB2EE;
+  background-color: $grid-color-3;
   }
 
 
@@ -50,7 +50,7 @@
   align-items: center;
   width: 100%;
   &.theme__colors{
-  background-color: #7EE6FD;
+  background-color: $grid-color-4;
   }
 }
 .grid__col--5{
@@ -59,7 +59,7 @@
   // text-align: center;
   // font-weight: bold;
   &.theme__colors{
-  background-color: #88D9A0;
+  background-color: $grid-color-5;
   }
 
 }
@@ -69,14 +69,14 @@
    // font-weight: bold;
    width: 100%;
     &.theme__colors{
-      background-color: #3FABCA;
+      background-color: $grid-color-6;
     }
 }
 .grid__col--7{
   width: 100%;
 
   &.theme__colors{
-  background-color: #EC9EA3;
+  background-color: $grid-color-7;
   }
   @include centerbold;
   // text-align: center;
@@ -86,7 +86,7 @@
   width: 100%;
 
   &.theme__colors{
-  background-color: #FD9E85;
+  background-color: $grid-color-8;
   }
 }
 .grid__col--9{
@@ -102,7 +102,7 @@
   align-items: center;
   width: 100%;
   &.theme__colors{
-  background-color: #80E8D1;
+  background-color: $grid-color-12;
   }
 }
 
