@@ -1,24 +1,38 @@
+@mixin flexcolumncenter{
+  flex-direction: column;
+  justify-content: center;
+}
+
+@mixin centerbold{
+  text-align: center;
+  font-weight: bold;
+}
 .container{
-  font-family: Roboto;
+
   margin-left: 10%;
   margin-right: 10%;
-  color: #9C9C9C;
+
 }
 
 .grid__row{
   margin-top: 10px;
   margin-bottom: 30px;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  @include flexcolumncenter;
+
+  // flex-direction: column;
+  // justify-content: center;
+
   align-items: center;
 }
 
 // .grid__col--2{}
 .grid__col--3{
   width: 100%;
-  text-align: center;
-  font-weight: bold;
+
+  @include centerbold;
+  // text-align: center;
+  // font-weight: bold;
   &.theme__colors{
   background-color: #DEB2EE;
   }
@@ -28,8 +42,11 @@
 }
 .grid__col--4{
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  @include flexcolumncenter;
+
+  // flex-direction: column;
+  // justify-content: center;
+
   align-items: center;
   width: 100%;
   &.theme__colors{
@@ -38,16 +55,18 @@
 }
 .grid__col--5{
   width: 100%;
-  text-align: center;
-  font-weight: bold;
+  @include centerbold;
+  // text-align: center;
+  // font-weight: bold;
   &.theme__colors{
   background-color: #88D9A0;
   }
 
 }
  .grid__col--6{
-   text-align: center;
-   font-weight: bold;
+   @include centerbold;
+   // text-align: center;
+   // font-weight: bold;
    width: 100%;
     &.theme__colors{
       background-color: #3FABCA;
@@ -59,8 +78,9 @@
   &.theme__colors{
   background-color: #EC9EA3;
   }
-  text-align: center;
-  font-weight: bold;
+  @include centerbold;
+  // text-align: center;
+  // font-weight: bold;
 }
 .grid__col--8{
   width: 100%;
@@ -90,7 +110,7 @@
   font-weight: bold;
 }
 
-@media only screen and (min-width: 769px){
+@media #{$desktop-media}{
   .container{
     margin-left: 10%;
     margin-right: 10%;

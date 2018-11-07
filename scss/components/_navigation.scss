@@ -15,8 +15,8 @@ margin-top: 15px;
     a:hover{
       background-color: #58E1C1;
       color: white;
-      padding-left: 210px;
-      padding-right: 210px;
+      padding-left: 50%;
+      padding-right: 50%;
       padding-top: 5px;
       padding-bottom: 5px;
       border-radius: 5px;
@@ -24,7 +24,7 @@ margin-top: 15px;
   }
 }
 
-@media only screen and (min-width: 769px){
+@media #{$desktop-media}{
   .nav{
   flex-direction: row;
   justify-content: center;

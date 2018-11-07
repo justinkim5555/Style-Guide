@@ -1,46 +1,59 @@
+@mixin buttonblock{
+  color: $button-font-color;
+  text-transform: uppercase;
+}
+
 
 .btn--default{
-  color: white;
+  @include buttonblock;
   background-color: $default-color;
+
 }
 
 .btn--success{
-  color: white;
+  @include buttonblock;
+
   background-color: $success-color;
+
 }
 
 .btn--error{
-  color: white;
-  background-color: #E4747A;
+  @include buttonblock;
+
+
+  background-color: $error-color;
+
 }
 
 .btn--warning{
-  color: white;
-  background-color: #FD7756;
+  @include buttonblock;
+
+
+  background-color: $warning-color;
+
 }
 
 .btn--info{
-  color: white;
-  background-color: #927BC1;
-  .theme__colors{
-    width: 100%;
-  }
+  @include buttonblock;
+
+
+  background-color: $info-color;
+
 }
 
 
 .theme__colors{
   margin: 1%;
-  width: 95%;
+  width: 100%;
   padding-top: 5px;
   padding-bottom: 5px;
   padding-left: 50px;
   padding-right: 50px;
   border-radius: 5px;
   border: none;
-
 }
 
-@media only screen and (min-width: 769px){
+@media #{$desktop-media}{
 
   button{
     width: 100%;

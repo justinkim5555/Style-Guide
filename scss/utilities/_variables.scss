@@ -1,6 +1,17 @@
 $default-color: #51DDFC;
-$success-color: #51DDFC;
+$success-color: #58C577;
 $error-color: #E4747A;
 $warning-color: #FD7756;
 $info-color: #927BC1;
-$white: #fff;
+$button-font-color: #fff;
+// border radius
+$border-r: 5px;
+
+// Font stacks
+$stack-roboto: 'Roboto', sans-serif;
+
+// //Assets Path
+$path-img: '../img';
+
+// Media Query Breakpoints
+$desktop-media: '(min-width: 769px)';
