@@ -657,14 +657,14 @@ ul {
   }
 }
 .blockquote {
-  border-left: 5px solid #58E1C1;
+  border-left: 5px solid #80E8D1;
   padding-left: 30px;
   font-size: 20px;
 }
 
 .headline--primary {
   margin-left: 20px;
-  color: #58E1C1;
+  color: #80E8D1;
 }
 
 .headline--secondary {

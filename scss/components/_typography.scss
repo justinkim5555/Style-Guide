@@ -1,18 +1,18 @@
 // .container{}
 // .link{}
 .blockquote{
-  border-left:5px solid #58E1C1;
+  border-left:5px solid $grid-color-12;
   padding-left: 30px;
   font-size: 20px;
 }
 .headline--primary{
   margin-left: 20px;
-  color: #58E1C1;
+  color: $grid-color-12;
 
 }
 .headline--secondary{
   font-weight: normal;
-  margin-left: 5px;
+  margin-left: 5px; 
 }
 
 
