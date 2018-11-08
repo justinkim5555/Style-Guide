@@ -33,7 +33,7 @@
 // .grid__col--2{}
 .grid__col--3{
   // width: 100%;
-  @extend: %mobilewidth;
+  @extend %mobilewidth;
   @extend %centerbold;
   // text-align: center;
   // font-weight: bold;
@@ -52,14 +52,14 @@
   // justify-content: center;
   // align-items: center;
   // width: 100%;
-  @extend: %mobilewidth;
+  @extend %mobilewidth;
   &.theme__colors{
   background-color: $grid-color-4;
   }
 }
 .grid__col--5{
   // width: 100%;
-  @extend: %mobilewidth;
+  @extend %mobilewidth;
   @extend %centerbold;
   // text-align: center;
   // font-weight: bold;
@@ -73,14 +73,14 @@
    // text-align: center;
    // font-weight: bold;
    // width: 100%;
-   @extend: %mobilewidth;
+   @extend %mobilewidth;
     &.theme__colors{
       background-color: $grid-color-6;
     }
 }
 .grid__col--7{
   // width: 100%;
-  @extend: %mobilewidth;
+  @extend %mobilewidth;
 
   &.theme__colors{
   background-color: $grid-color-7;
@@ -91,7 +91,7 @@
 }
 .grid__col--8{
   // width: 100%;
-  @extend: %mobilewidth;
+  @extend %mobilewidth;
 
   &.theme__colors{
   background-color: $grid-color-8;
@@ -99,7 +99,7 @@
 }
 .grid__col--9{
   // width: 100%;
-  @extend: %mobilewidth;
+  @extend %mobilewidth;
 
 }
 // .grid__col--10{}
@@ -111,7 +111,7 @@
   // align-items: center;
   @include flex(column, center, center);
   // width: 100%;
-  @extend: %mobilewidth;
+  @extend %mobilewidth;
   &.theme__colors{
   background-color: $grid-color-12;
   }
