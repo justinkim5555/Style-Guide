@@ -3,7 +3,7 @@
   justify-content: center;
 }
 
-@mixin centerbold{
+%centerbold{
   text-align: center;
   font-weight: bold;
 }
@@ -30,7 +30,7 @@
 .grid__col--3{
   width: 100%;
 
-  @include centerbold;
+  @extend %centerbold;
   // text-align: center;
   // font-weight: bold;
   &.theme__colors{
@@ -55,7 +55,7 @@
 }
 .grid__col--5{
   width: 100%;
-  @include centerbold;
+  @extend %centerbold;
   // text-align: center;
   // font-weight: bold;
   &.theme__colors{
@@ -64,7 +64,7 @@
 
 }
  .grid__col--6{
-   @include centerbold;
+   @extend %centerbold;
    // text-align: center;
    // font-weight: bold;
    width: 100%;
@@ -78,7 +78,7 @@
   &.theme__colors{
   background-color: $grid-color-7;
   }
-  @include centerbold;
+  @extend %centerbold;
   // text-align: center;
   // font-weight: bold;
 }
@@ -107,13 +107,14 @@
 }
 
 .theme__colors{
-  font-weight: bold;
+  @extend %centerbold;
 }
 
 @media #{$desktop-media}{
   .container{
     margin-left: 10%;
     margin-right: 10%;
+
   }
 
   .grid__row{
