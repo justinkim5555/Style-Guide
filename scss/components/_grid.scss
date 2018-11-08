@@ -4,6 +4,9 @@
   justify-content: $just;
   align-items: $items;
 }
+%mobilewidth{
+  width: 100%;
+}
 
 %centerbold{
   text-align: center;
@@ -20,18 +23,17 @@
   margin-top: 10px;
   margin-bottom: 30px;
   display: flex;
-  @include flex(column, center);
+  @include flex(column, center, center);
 
   // flex-direction: column;
   // justify-content: center;
-
-  align-items: center;
+  // align-items: center;
 }
 
 // .grid__col--2{}
 .grid__col--3{
-  width: 100%;
-
+  // width: 100%;
+  @extend: %mobilewidth;
   @extend %centerbold;
   // text-align: center;
   // font-weight: bold;
@@ -44,19 +46,20 @@
 }
 .grid__col--4{
   display: flex;
-  @include flex(column, center);
+  @include flex(column, center, center);
 
   // flex-direction: column;
   // justify-content: center;
-
-  align-items: center;
-  width: 100%;
+  // align-items: center;
+  // width: 100%;
+  @extend: %mobilewidth;
   &.theme__colors{
   background-color: $grid-color-4;
   }
 }
 .grid__col--5{
-  width: 100%;
+  // width: 100%;
+  @extend: %mobilewidth;
   @extend %centerbold;
   // text-align: center;
   // font-weight: bold;
@@ -69,13 +72,15 @@
    @extend %centerbold;
    // text-align: center;
    // font-weight: bold;
-   width: 100%;
+   // width: 100%;
+   @extend: %mobilewidth;
     &.theme__colors{
       background-color: $grid-color-6;
     }
 }
 .grid__col--7{
-  width: 100%;
+  // width: 100%;
+  @extend: %mobilewidth;
 
   &.theme__colors{
   background-color: $grid-color-7;
@@ -85,24 +90,28 @@
   // font-weight: bold;
 }
 .grid__col--8{
-  width: 100%;
+  // width: 100%;
+  @extend: %mobilewidth;
 
   &.theme__colors{
   background-color: $grid-color-8;
   }
 }
 .grid__col--9{
-  width: 100%;
+  // width: 100%;
+  @extend: %mobilewidth;
 
 }
 // .grid__col--10{}
 // .grid__col--11{}
 .grid__col--12{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
+  // display: flex;
+  // flex-direction: column;
+  // justify-content: center;
+  // align-items: center;
+  @include flex(column, center, center);
+  // width: 100%;
+  @extend: %mobilewidth;
   &.theme__colors{
   background-color: $grid-color-12;
   }
@@ -120,9 +129,10 @@
   }
 
   .grid__row{
-    flex-direction: row;
-    align-items: flex-start;
-    justify-content: space-around;
+    @include flex(row, space-around, flex-start);
+    // flex-direction: row;
+    // align-items: flex-start;
+    // justify-content: space-around;
   }
 
 
@@ -131,7 +141,7 @@
     max-width: 35%;
   }
   .grid__col--12{
-    flex-direction: row;
+    @include flex(row);
     flex-wrap: wrap;
   }
   .grid__col--6{
@@ -146,6 +156,6 @@
     }
   }
   .grid__col--9{
-    flex-direction: row;
+    @include flex(row);
   }
 }
