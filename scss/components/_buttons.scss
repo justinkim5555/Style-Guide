@@ -1,35 +1,35 @@
-@mixin buttonblock{
+%buttonblock{
   color: $button-font-color;
   text-transform: uppercase;
 }
 
 
 .btn--default{
-  @include buttonblock;
+  @extend %buttonblock;
   background-color: $default-color;
 
 }
 
 .btn--success{
-  @include buttonblock;
+  @extend %buttonblock;
   background-color: $success-color;
 
 }
 
 .btn--error{
-  @include buttonblock;
+  @extend %buttonblock;
   background-color: $error-color;
 
 }
 
 .btn--warning{
-  @include buttonblock;
+  @extend %buttonblock;
   background-color: $warning-color;
 
 }
 
 .btn--info{
-  @include buttonblock;
+  @extend %buttonblock;
   background-color: $info-color;
 
 }

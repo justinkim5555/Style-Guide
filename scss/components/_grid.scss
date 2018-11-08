@@ -1,6 +1,8 @@
-@mixin flexcolumncenter{
-  flex-direction: column;
-  justify-content: center;
+@mixin flex($dir, $just: center, $items: null){
+  display: flex;
+  flex-direction: $dir;
+  justify-content: $just;
+  align-items: $items;
 }
 
 %centerbold{
@@ -18,7 +20,7 @@
   margin-top: 10px;
   margin-bottom: 30px;
   display: flex;
-  @include flexcolumncenter;
+  @include flex(column, center);
 
   // flex-direction: column;
   // justify-content: center;
@@ -42,7 +44,7 @@
 }
 .grid__col--4{
   display: flex;
-  @include flexcolumncenter;
+  @include flex(column, center);
 
   // flex-direction: column;
   // justify-content: center;

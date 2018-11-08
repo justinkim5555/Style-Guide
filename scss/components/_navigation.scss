@@ -15,10 +15,10 @@ margin-top: 15px;
     margin: 8px;
     a{
         text-decoration: none;
-        color: #9C9C9C;
+        color: $default-font;
     }
     a:hover{
-      background-color: #58E1C1;
+      background-color: $grid-color-12;
       color: white;
       padding-left: 50%;
       padding-right: 50%;

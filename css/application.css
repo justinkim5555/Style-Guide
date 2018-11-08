@@ -413,33 +413,28 @@ ul {
   list-style: none;
 }
 
-.btn--default {
+.btn--info, .btn--warning, .btn--error, .btn--success, .btn--default {
   color: #fff;
   text-transform: uppercase;
+}
+
+.btn--default {
   background-color: #51DDFC;
 }
 
 .btn--success {
-  color: #fff;
-  text-transform: uppercase;
   background-color: #58C577;
 }
 
 .btn--error {
-  color: #fff;
-  text-transform: uppercase;
   background-color: #E4747A;
 }
 
 .btn--warning {
-  color: #fff;
-  text-transform: uppercase;
   background-color: #FD7756;
 }
 
 .btn--info {
-  color: #fff;
-  text-transform: uppercase;
   background-color: #927BC1;
 }
 
@@ -488,7 +483,7 @@ ul {
   padding-top: 20px;
   width: 100%;
   border: none;
-  border-bottom: 5px solid #51DDFC;
+  border-bottom: 5px solid #80E8D1;
 }
 
 @media (min-width: 769px) {
@@ -510,6 +505,7 @@ ul {
   margin-top: 10px;
   margin-bottom: 30px;
   display: flex;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -523,6 +519,7 @@ ul {
 }
 
 .grid__col--4 {
+  display: flex;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -628,7 +625,7 @@ ul {
   color: #9C9C9C;
 }
 .nav .nav__item a:hover {
-  background-color: #58E1C1;
+  background-color: #80E8D1;
   color: white;
   padding-left: 50%;
   padding-right: 50%;
