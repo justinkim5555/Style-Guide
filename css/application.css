@@ -639,11 +639,25 @@ ul {
   .nav .nav__item {
     margin-left: 25px;
     margin-right: 25px;
+    .nav .nav__item a{}
+
   }
+  .nav .nav__item a{
+    padding-left: 50px;;
+    padding-right: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+  }
+
+
   .nav .nav__item a:hover {
     background-color: #58E1C1;
     color: white;
-    padding: 5px;
+    padding-left: 50px;;
+    padding-right: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     border-radius: 5px;
   }
 }
