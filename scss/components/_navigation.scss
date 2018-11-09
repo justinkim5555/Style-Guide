@@ -27,7 +27,7 @@ margin-top: 15px;
   }
 }
 
-@media #{$desktop-media}{
+@include desktop{
   .nav{
   @include flex(row, center, center);
   margin-top: 35px;

@@ -4,3 +4,9 @@
   justify-content: $just;
   align-items: $items;
 }
+
+@mixin desktop{
+  @media (min-width: #{$desktop-width}) {
+    @content;
+  }
+}

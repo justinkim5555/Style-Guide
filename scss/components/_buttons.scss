@@ -46,7 +46,7 @@
   border: none;
 }
 
-@media #{$desktop-media}{
+@include desktop{
 
   button{
     width: 100%;

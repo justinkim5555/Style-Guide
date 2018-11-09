@@ -15,7 +15,7 @@
   margin-left: 5px;
 }
 
-@media #{$desktop-media}{
+@include desktop{
   .blockquote{
     max-width: 60%;
   }

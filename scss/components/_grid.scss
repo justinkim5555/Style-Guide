@@ -116,7 +116,7 @@
   @extend %centerbold;
 }
 
-@media #{$desktop-media}{
+@include desktop{
   .container{
     margin-left: 10%;
     margin-right: 10%;

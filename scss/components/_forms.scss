@@ -22,7 +22,7 @@
 
 
 
-@media #{$desktop-media}{
+@include desktop{
   .form{
     min-width: 100%;
   }
