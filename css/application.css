@@ -611,12 +611,17 @@ ul {
 .nav .nav__item a {
   text-decoration: none;
   color: #9C9C9C;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 5px;
 }
 .nav .nav__item a:hover {
   background-color: #80E8D1;
   color: white;
-  padding-left: 50%;
-  padding-right: 50%;
+  padding-left: 100px;;
+  padding-right: 100px;
   padding-top: 5px;
   padding-bottom: 5px;
   border-radius: 5px;
